@@ -7,5 +7,5 @@ def self.clear_all
     dog.delete
   end
 end
-  
+
 end # end of the Dog class
