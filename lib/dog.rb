@@ -17,5 +17,9 @@ def self.all
   end
 end
 
+def new=(name)
+@@all << name
+end
+
 
 end # end of the Dog class
