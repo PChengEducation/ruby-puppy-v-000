@@ -12,7 +12,7 @@ def self.clear_all
 end
 
 def self.all
-  @@all each do |x|
+  @@all.each do |x|
     puts x
   end
 end
