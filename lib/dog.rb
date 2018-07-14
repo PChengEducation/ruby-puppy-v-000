@@ -11,7 +11,7 @@ end
 
 def self.clear_all
   @@all.each do |x|
-    x.delete
+    delete_if x = self
   end
 end
 
