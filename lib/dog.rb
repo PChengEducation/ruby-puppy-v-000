@@ -10,8 +10,7 @@ def initialize(name)
 end
 
 def self.clear_all
-  @@all.each do |x|
-    delete_if x = self
+  @@all.clear_all
   end
 end
 
