@@ -6,7 +6,6 @@ attr_accessor :name
 
 def initialize(name)
   @name = name
-
   @@all << self
 end
 
@@ -22,9 +21,9 @@ def self.all
   end
 end
 
-def new=(name)
-@@all << name
-end
+#def new=(name)
+#@@all << name
+#end
 
 
 end # end of the Dog class
