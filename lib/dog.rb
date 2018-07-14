@@ -3,6 +3,7 @@ class Dog
 def initialize(name)
   @@name = name
   @@all = []
+  @@all << name
 end
 
 def self.clear_all
@@ -14,6 +15,6 @@ end
 def self.all
   puts @@all
 end
-
+  
 
 end # end of the Dog class
