@@ -1,9 +1,12 @@
 class Dog
 
-def new=(name)
-@@all = []
-@@name = name
+def initialize(name)
+  @@name = name
+  @@all = []
 end
+
+
+
 
 def self.clear_all
   @@all.each do |dog|
