@@ -3,12 +3,11 @@ class Dog
 def initialize(name)
   @@name = name
   @@all = []
-  @@all << name
 end
 
 def self.clear_all
-  @@all.each do |dog|
-    dog.delete
+  @@all.each do |x|
+    x.delete
   end
 end
 
