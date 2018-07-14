@@ -21,5 +21,8 @@ def new=(name)
 @@all << name
 end
 
+def name
+  @name
+end
 
 end # end of the Dog class
