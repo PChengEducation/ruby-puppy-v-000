@@ -6,7 +6,7 @@ attr_accessor :name
 
 def initialize(name)
   @name = name
-  @@all << self
+  @@all << name
 end
 
 def self.clear_all
@@ -20,10 +20,6 @@ def self.all
     puts x.name
   end
 end
-
-#def new=(name)
-#@@all << name
-#end
 
 
 end # end of the Dog class
